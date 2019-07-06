@@ -3,6 +3,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/florintiucrapopa/language"
+  packages = ["mapper"]
+  revision = "8858ea60664127b76afab1c6744b96e4fb11bd6e"
+
+[[projects]]
+  branch = "master"
   name = "github.com/rylans/getlang"
   packages = ["."]
   revision = "0a0f3a5aed5d93ca39afc363bd771cfa49e431d3"
@@ -25,6 +31,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "29363d297c1c2133dea702ce582377e4ba4d0e95fa3beb87c99bfb7bf166ebdd"
+  inputs-digest = "4acc2a3d61eb3c2f194cd22da3e84f0b2bb3a7305bc49fa691a82e96d925f97b"
   solver-name = "gps-cdcl"
   solver-version = 1
